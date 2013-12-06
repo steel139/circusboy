@@ -12,3 +12,13 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 #endif
+
+
+// タッチの動いた方向
+typedef enum {
+    TOUCH_DIRECTION_UP,
+    TOUCH_DIRECTION_DOWN,
+    TOUCH_DIRECTION_LEFT,
+    TOUCH_DIRECTION_RIGHT
+} TOUCH_DIRECTION_TAG;
+
